@@ -25,10 +25,10 @@ const UserChatMessage = ({
           message,
         })}
         elseShow={
-          <div className="react-chatbot-kit-user-chat-message">
+          <pre className="react-chatbot-kit-user-chat-message">
             {message}
             <div className="react-chatbot-kit-user-chat-message-arrow"></div>
-          </div>
+          </pre>
         }
       />
       <ConditionallyRender
