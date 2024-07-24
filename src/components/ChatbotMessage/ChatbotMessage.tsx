@@ -99,7 +99,7 @@ const ChatbotMessage = ({
               loader: <Loader />,
             })}
             elseShow={
-              <div
+              <pre
                 className="react-chatbot-kit-chat-bot-message"
                 style={chatBoxCustomStyles}
               >
@@ -117,7 +117,7 @@ const ChatbotMessage = ({
                     ></div>
                   }
                 />
-              </div>
+              </pre>
             }
           />
         </div>
